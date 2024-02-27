@@ -6,14 +6,54 @@ import Mycomponent from './components/Mycomponent';
 
 import MycomponentClass from './components/MycomponentClass';
 
+import Greet from './components/greet';
+
+import ComponentJSX from './components/ComponentJSX';
+
+import Message from './components/Message';
+
+import Counter from './components/Counter';
+
+import Counter2 from './components/Counter2';
+
+import Greet2 from './components/greet2';
+
+import EventBind from './components/EventBind';
+
+import ParentC from './components/ParentC';
+
+import ParentR from './components/ParentR';
+
+import UserGreeting from './components/UserGreeting';
+
+import NameList from './components/NameList';
 function App() {
   return (
+
     <div className="App">
-
-      <Mycomponent/>
-      <MycomponentClass/>
       
+    <NameList></NameList>
+      {/* <UserGreeting></UserGreeting> */}
+      {/* <ParentRevision></ParentRevision> */}
 
+    {/* <ParentR></ParentR> */}
+      
+    {/* <ParentC></ParentC> */}
+      {/* <Mycomponent/>
+      <MycomponentClass/>
+
+      <Greet firstname ="Vrushali" lastname ="patil"></Greet>
+      <Greet firstname ="sanjeet" lastname ="wandhare"></Greet>
+      <Greet firstname ="sayali" lastname ="jogi"></Greet>
+      
+      <ComponentJSX/>
+
+      <Message/> */}
+      {/* <Counter/> */}
+      {/* <Message/>  */}
+      {/* <Greet2 firstname="sanjeet" lastname= "wandhare"></Greet2>
+      <Counter2/>
+      <EventBind></EventBind> */}
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
