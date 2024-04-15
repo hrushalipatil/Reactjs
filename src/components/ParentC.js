@@ -25,4 +25,4 @@ class ParentC extends Component{
     }
 }
 
-export default ParentC
+export default ParentC                                   
