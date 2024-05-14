@@ -29,6 +29,4 @@ render(){
     )
 }
 }
-
-
 export default EventBind
